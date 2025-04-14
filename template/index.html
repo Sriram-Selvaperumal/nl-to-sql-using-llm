@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universal Language to SQL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Universal Language to SQL Converter</h1>
+        <form method="POST">
+            <input type="text" name="query" placeholder="Enter your query..." required>
+            <button type="submit">Convert</button>
+        </form>
+
+        {% if result %}
+        <div class="result">
+            <h2>🧾 Generated SQL Query:</h2>
+            <pre>{{ result }};</pre>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
