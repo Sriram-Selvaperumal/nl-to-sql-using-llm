@@ -28,5 +28,5 @@ UniLang SQL Converter is an AI-powered Flask web app that transforms natural lan
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Sriram-Selvaperumal/unilang-sql-converter.git
+git clone https://github.com/Sriram-Selvaperumal/nl-to-sql-using-llm.git
 cd unilang-sql-converter
